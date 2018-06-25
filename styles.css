@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* height: 100vh; */
   width: 100vw;
   align-items: center;
 }
@@ -17,14 +16,14 @@ body {
 .flex-mainContainer-centerColumn {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 85vw;
   margin: 40px 0px;
 }
 /* header row */
 .flex-mainContainer-header {
   display: flex;
   flex-direction: row;
-  height: 10vh;
+  height: 20vh;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -34,13 +33,12 @@ body {
 .flex-mainContainer-firstRow {
   display: flex;
   flex-direction: row;
-  height: 30vh;
+  height: 40vh;
 }
 .flex-mainContainer-firstLeft {
   display: flex;
-
+  flex: 1;
   flex-direction: column;
-  width: 35vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -48,8 +46,8 @@ body {
 }
 .flex-mainContainer-firstRight {
   display: flex;
+  flex: 2;
   flex-direction: column;
-  width: 65vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -59,12 +57,12 @@ body {
 .flex-mainContainer-secondRow {
   display: flex;
   flex-direction: row;
-  height: 30vh;
+  height: 40vh;
 }
 .flex-mainContainer-secondLeft {
   display: flex;
+  flex: 2;
   flex-direction: column;
-  width: 65vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -72,8 +70,8 @@ body {
 }
 .flex-mainContainer-secondRight {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  width: 35vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -83,12 +81,12 @@ body {
 .flex-mainContainer-thirdRow {
   display: flex;
   flex-direction: row;
-  height: 30vh;
+  height: 40vh;
 }
 .flex-mainContainer-thirdLeft {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  width: 50vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -96,8 +94,8 @@ body {
 }
 .flex-mainContainer-thirdRight {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  width:50vw;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
@@ -111,16 +109,17 @@ body {
 
 
 
-/* header row */
+/* footer row */
 .flex-mainContainer-footer {
   display: flex;
   flex-direction: row;
-  height: 10vh;
+  height: 20vh;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   background-color: #c8c5c1;
 }
+/* copy right row */
 .flex-mainContainer-copyRight {
   display: flex;
   flex-direction: row;
